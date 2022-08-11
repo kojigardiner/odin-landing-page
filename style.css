@@ -7,6 +7,8 @@ body {
     background-color: #1f2937;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .top {
@@ -42,6 +44,7 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 50px;
     padding: 100px 0px;
 }
@@ -77,10 +80,10 @@ body {
 }
 
 .hero img {
-    width: 300px;
-    height: auto;
     flex: 1;
     border-radius: 16px;
+    width: 300px;
+    height: auto;
 }
 
 .middle {
@@ -181,7 +184,18 @@ body {
     flex: none
 }
 
-.footer {}
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .copyright {
+    color: #f9faf8;
+    font-weight: lighter;
+    padding: 20px 0px;
+}
 
 img.logo {
     width: 40px;
