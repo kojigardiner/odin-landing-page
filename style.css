@@ -120,6 +120,25 @@ body {
     font-weight: lighter;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 250;
+    font-style: italic;
+}
+
+.quote .signature {
+    font-size: 18px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
 
 .footer {}
 
