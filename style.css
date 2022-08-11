@@ -28,7 +28,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 
 .header a {
@@ -49,6 +49,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 12px;
+    flex: 1;
 }
 
 .hero .main-text {
@@ -59,6 +60,7 @@ body {
 
 .hero .main-subtext {
     font-size: 18px;
+    font-weight: lighter;
     color: #e5e7eb
 }
 
@@ -72,12 +74,55 @@ body {
     width: 100px;
 }
 
+.hero img {
+    width: 300px;
+    height: auto;
+    flex: 1;
+    border-radius: 16px;
+}
+
+.middle {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 40px;
+}
+
+.middle .middle-text {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    max-width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+.card .text {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
 .footer {}
 
 img.logo {
     width: 40px;
-}
-
-img.hero-img {
-    width: 500px;
 }
